@@ -19,11 +19,11 @@ watch_dir = "."
 # Turnstile 验证（可选）
 # 在 Cloudflare Dashboard 中创建 Turnstile Widget 后，将密钥配置为环境变量
 # [vars]
-# TURNSTILE_SECRET = "your-turnstile-secret-key"
-# TURNSTILE_SITEKEY = "your-turnstile-site-key"
+TURNSTILE_SECRET = "0x4AAAAAADmXop_FlXF4-ETwc5J_7eSNpSA"
+TURNSTILE_SITEKEY = "0x4AAAAAADmXov5N05QdFbG7"
 
 #[[routes]]
-#pattern = "自定义域名"
+#pattern = "ssh.wei99.tk"
 #custom_domain = true
 
 [[durable_objects.bindings]]
